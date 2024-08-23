@@ -2,6 +2,7 @@ import React from 'react'
 import { useCounter } from './useCounter'
 
 export default function Counter1() {
+  
    const [Counter, increment, decremnt] =  useCounter(1000)
 
 // let [Counter, setCounter] = useState(0);
